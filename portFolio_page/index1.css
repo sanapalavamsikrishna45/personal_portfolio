@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+
+    text-align: center;
+    background-color: rgb(4, 24, 44);
+
+    .head_section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top:1%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 2%;
+
+
+        .head-h1 {
+            font-style: italic;
+            font-weight: bold;
+            font-size: 34px;
+            color: white;
+
+
+        }
+
+        .head_items {
+            display: flex;
+            list-style-type: none;
+            gap: 60px;
+
+            li {
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 20px;
+                    font-weight: bolder;
+                }
+
+                a:active {
+                    color: deepskyblue;
+                }
+            }
+            .index1 a{
+                color: deepskyblue;
+            }
+        }
+    }
+
+    
+
+    .h1 {
+
+        font-size: 45px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+
+        .me {
+            color: deepskyblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .img-div-1 {
+        .img {
+            .profile {
+                width: 200px;
+                text-align: center;
+                border: 3px solid deepskyblue;
+                border-radius: 50%;
+                transition: 300ms;
+            }
+
+            .profile:hover {
+                transform: rotate('60deg');
+
+            }
+        }
+    }
+
+
+
+    .h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+
+    .p-1 {
+        margin-left: 15%;
+        margin-right: 15%;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+    .Read_me {
+        padding: 7px 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        background-color: deepskyblue;
+        font-weight: bolder;
+        border-radius: 10px;
+        border: 3px solid deepskyblue;
+
+    }
+
+}
